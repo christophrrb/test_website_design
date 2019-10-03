@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+}
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#navbar > li {
+    display: inline;
+    font-size: 2em;
+    margin: 20px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#navbar > li > a {
+    color: black;
+}
+
+#navbar > li > a:hover {
+    color: darkgray;
+}
+
+#promo-div {
+    background-image: url(../Pictures/code.png);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div > * {
+    color: white;
+}
+
+#promo-text {
+    font-size: 12em;
+    font-weight: bold;
+}
+
+#sub-promo-text {
+    font-size: 5em;
+}
